@@ -1,60 +1,64 @@
 <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; font-family: 'Microsoft YaHei', sans-serif; max-width: 600px; color: #333333; line-height: 1.6;">
-    <tr>
-        <td style="padding: 15px 0 0 0;">
-            <!-- 邮件结尾问候语（已加粗） -->
-            <div style="font-size: 14px; color: #333333; margin-bottom: 15px; font-weight: bold;">
-                Best regards,
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td style="padding: 15px 0; border-top: 1px solid #000000;">
-            <!-- 签名人姓名 + 国旗图标 -->
-            <div style="font-size: 18px; font-weight: bold; color: #0056b3; margin-bottom: 8px;">
-                <img src="https://thesvg.org/icons/flag-cn/default.svg" alt="CN" width="20" height="20" style="border: none; vertical-align: middle; margin-left: 8px;"> Carry B Zhang
-            </div>
+  <tr>
+    <td style="padding: 15px 0 0 0;">
+      <div style="font-size: 14px; color: #333333; margin-bottom: 15px; font-weight: bold;">
+        Best regards,
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 15px 0; border-top: 1px solid #000000;">
 
-            <!-- 社交图标区域（thesvg.org SVG 直链，点击跳转对应链接） -->
-            <div style="margin-bottom: 15px;">
-                <!-- 钉钉图标 -->
-                <a href="https://zbm5201314.github.io/ShareAnything/" target="_blank" style="text-decoration: none; margin-right: 10px; display: inline-block;" title="DingTalk">
-                    <img src="https://thesvg.org/icons/alibaba/color.svg" alt="DingTalk" width="18" height="18" style="border: none; vertical-align: middle;">
-                </a>
-                <!-- QQ图标 -->
-                <a href="https://zbm5201314.github.io/ShareAnything/" target="_blank" style="text-decoration: none; margin-right: 10px; display: inline-block;" title="QQ">
-                    <img src="https://thesvg.org/icons/qq/default.svg" alt="QQ" width="18" height="18" style="border: none; vertical-align: middle;">
-                </a>
-                <!-- 微信图标 -->
-                <a href="https://zbm5201314.github.io/ShareAnything/" target="_blank" style="text-decoration: none; margin-right: 10px; display: inline-block;" title="WeChat">
-                    <img src="https://thesvg.org/icons/wechat/default.svg" alt="WeChat" width="18" height="18" style="border: none; vertical-align: middle;">
-                </a>
-                <!-- 抖音图标 -->
-                <a href="https://zbm5201314.github.io/ShareAnything/" target="_blank" style="text-decoration: none; margin-right: 10px; display: inline-block;" title="Douyin">
-                    <img src="https://thesvg.org/icons/tiktok/light.svg" alt="Douyin" width="18" height="18" style="border: none; vertical-align: middle;">
-                </a>
-				<!-- 支付宝图标 -->
-                <a href="https://zbm5201314.github.io/ShareAnything/" target="_blank" style="text-decoration: none; margin-right: 10px; display: inline-block;" title="Alipay">
-                    <img src="https://thesvg.org/icons/alipay/default.svg" alt="Douyin" width="18" height="18" style="border: none; vertical-align: middle;">
-                </a>
-            </div>
+      <!-- 一行：国旗 + [姓名 + 5个图标 + << 添加好友/Add Friend（同一个链接）] -->
+      <div style="margin-bottom: 15px; white-space: nowrap;">
 
-            <!-- 英文保密声明 -->
-            <div style="font-size: 12px; color: #666666; margin-bottom: 8px; text-align: justify;">
-                The content of this email is confidential and intended for the recipient specified in the message only. It is strictly forbidden to share any part of this message with any third party, without a written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that I can ensure such a mistake does not occur in the future.
-            </div>
+        <!-- 国旗在前 -->
+        <img src="https://thesvg.org/icons/flag-cn/default.svg" alt="CN" width="20" height="20" style="border: none; vertical-align: middle; margin-right: 6px;">
 
-            <!-- 中文保密声明 -->
-            <div style="font-size: 12px; color: #666666; margin-bottom: 15px; text-align: justify;">
-                本邮件内容属于机密信息，仅供指定收件人阅读。未经发件人书面许可，严禁将本邮件的任何部分分享给任何第三方。如果您误收了此邮件，请回复告知并予以删除，以确保未来不再发生此类错误。
-            </div>
+        <!-- 姓名 + 图标 + 添加好友，全部在同一个 <a> 内 -->
+        <a href="https://zbm5201314.github.io/ShareAnything/" target="_blank" style="text-decoration: none;">
+          <!-- 姓名 -->
+          <span style="font-size: 18px; font-weight: bold; color: #0056b3; vertical-align: middle;">Carry B Zhang</span>
 
-            <!-- 环保提示（已添加图标） -->
-            <div style="font-size: 12px; color: #28a745; font-weight: 500; margin-top: 10px;">
-                🍃 Consider the environment before printing this email &nbsp;&nbsp; 爱护环境，减少打印 ♻️
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td style="padding: 0; border-bottom: 1px solid #000000;"></td>
-    </tr>
+          <!-- 5 个图标：统一 18px、统一间距 -->
+          <img src="https://thesvg.org/icons/alibaba/color.svg" alt="DingTalk" width="18" height="18" style="border: none; vertical-align: middle; margin-left: 10px;">
+          <img src="https://thesvg.org/icons/qq/default.svg" alt="QQ" width="18" height="18" style="border: none; vertical-align: middle; margin-left: 8px;">
+          <img src="https://thesvg.org/icons/wechat/default.svg" alt="WeChat" width="18" height="18" style="border: none; vertical-align: middle; margin-left: 8px;">
+          <img src="https://thesvg.org/icons/tiktok/light.svg" alt="Douyin" width="18" height="18" style="border: none; vertical-align: middle; margin-left: 8px;">
+          <img src="https://thesvg.org/icons/alipay/default.svg" alt="Alipay" width="18" height="18" style="border: none; vertical-align: middle; margin-left: 8px;">
+
+          <!-- << 符号 + 两行文字（添加好友 / Add Friend），整组垂直居中 -->
+          <span style="font-size: 9px; color: #999999; vertical-align: middle; white-space: nowrap;">
+            <span style="vertical-align: middle;">&nbsp;&lt;&lt;</span>
+            <span style="display: inline-block; vertical-align: middle; margin-left: 4px; line-height: 1.3; text-align: left;">
+              添加好友<br>Add Friend
+            </span>
+          </span>
+        </a>
+
+      </div>
+
+      <!-- 英文保密声明 -->
+      <div style="font-size: 12px; color: #666666; margin-bottom: 8px; text-align: justify;">
+        The content of this email is confidential and intended for the recipient specified in the message only. It is strictly forbidden to share any part of this message with any third party, without a written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that I can ensure such a mistake does not occur in the future.
+      </div>
+
+      <!-- 中文保密声明 -->
+      <div style="font-size: 12px; color: #666666; margin-bottom: 15px; text-align: justify;">
+        本邮件内容属于机密信息，仅供指定收件人阅读。未经发件人书面许可，严禁将本邮件的任何部分分享给任何第三方。如果您误收了此邮件，请回复告知并予以删除，以确保未来不再发生此类错误。
+      </div>
+
+      <!-- 环保提示 -->
+      <div style="font-size: 12px; color: #28a745; font-weight: 500; margin-top: 10px;">
+        <img src="https://thesvg.org/ui/sprout/glass.svg" alt="sprout" width="18" height="18" style="border: none; vertical-align: middle; margin-right: 6px;">
+        Consider the environment before printing this email &nbsp;
+        爱护环境，减少打印
+        <img src="https://thesvg.org/ui/recycle/glass.svg" alt="recycle" width="18" height="18" style="border: none; vertical-align: middle; margin-left: 6px;">
+      </div>
+
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 0; border-bottom: 1px solid #000000;"></td>
+  </tr>
 </table>
